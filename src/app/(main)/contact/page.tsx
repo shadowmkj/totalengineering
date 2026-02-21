@@ -49,10 +49,10 @@ const ContactPage = () => {
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "No.4/68H Sri Kanika Garden Senthampalayam",  
+          "streetAddress": "MGC Palayam, Coimbatore",  
           "addressLocality": "Coimbatore",  
           "addressRegion": "Thamilnadu", 
-          "postalCode": "12345",  
+          "postalCode": "641107",  
           "addressCountry": "IN"  
         },
         "openingHoursSpecification": [
@@ -73,7 +73,7 @@ const ContactPage = () => {
             "@type": "OpeningHoursSpecification",
             "dayOfWeek": "Saturday",
             "opens": "9:00",
-            "closes": "2:00"
+            "closes": "18:00"
           },
           {
             "@type": "OpeningHoursSpecification",
