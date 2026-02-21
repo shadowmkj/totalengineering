@@ -29,14 +29,14 @@ export default function RootLayout({
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-T9678PSD');`}
+})(window,document,'script','dataLayer','G-ZT668V1JK2');`}
         </Script>
       ) : null}
       <body>
         {gtmId ? (
           <noscript>
             <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=GTM-T9678PSD`}
+              src={`https://www.googletagmanager.com/ns.html?id=G-ZT668V1JK2`}
               height="0"
               width="0"
               style={{ display: "none", visibility: "hidden" }}
