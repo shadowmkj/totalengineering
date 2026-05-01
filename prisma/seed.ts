@@ -24,7 +24,16 @@ async function main() {
     }
   }
 
-  console.log('Random products seeded successfully.');
+  // Seed demo posts
+  for (let p = 0; p < 10; p++) {
+    await prisma.post.create({
+      data: {
+        name: faker.lorem.sentence(6),
+      },
+    });
+  }
+
+  console.log('Random products and posts seeded successfully.');
 }
 
 main()

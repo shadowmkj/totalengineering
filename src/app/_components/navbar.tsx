@@ -43,6 +43,9 @@ const MobileMenu = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => void 
             <Link href="/contact" className="text-lg font-medium" onClick={onClose}>
               Contact
             </Link>
+             <Link href="/careers" className="text-lg font-medium" onClick={onClose}>
+              Careers
+            </Link>
           </nav>
           <div className="mt-auto bg-background px-8">
             <Input
@@ -135,6 +138,11 @@ export default function Navbar() {
                   <NavigationMenuItem>
                     <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-lg font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 text-foreground" href="/contact">
                       Contact
+                    </NavigationMenuLink>
+                  </NavigationMenuItem>
+                   <NavigationMenuItem>
+                    <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-lg font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 text-foreground" href="/careers">
+                      Careers
                     </NavigationMenuLink>
                   </NavigationMenuItem>
                 </NavigationMenuList>
