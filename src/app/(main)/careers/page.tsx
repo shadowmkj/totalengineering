@@ -123,7 +123,7 @@ const CareersPage = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       /> 
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl">Careers</h1>
-            <p>Welcome to our careers page!</p>
+            <p>At Total Engineering, your career growth is important to us. We support professional development through mentorship, training programs, and hands-on project experience to help you reach your full potential.</p>
 <div className="max-w-3xl mx-auto">
     <div className="flex flex-wrap gap-2 mb-8 justify-center">
         <button
