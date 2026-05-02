@@ -33,21 +33,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "monthly",
       priority: 0.8,
     },
-    {
-      url: `${baseUrl}/products`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
+    // {
+    //   url: `${baseUrl}/products`,
+    //   lastModified: new Date(),
+    //   changeFrequency: "weekly",
+    //   priority: 0.9,
+    // },
   ];
 
   // Add dynamic product pages
-  const productPages: MetadataRoute.Sitemap = products.map((product) => ({
-    url: `${baseUrl}/products/${product.id}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly" as const,
-    priority: 0.7,
-  }));
+  // const productPages: MetadataRoute.Sitemap = products.map((product) => ({
+  //   url: `${baseUrl}/products/${product.id}`,
+  //   lastModified: new Date(),
+  //   changeFrequency: "weekly" as const,
+  //   priority: 0.7,
+  // }));
 
-  return [...staticPages, ...productPages];
+   return [...staticPages];
 }

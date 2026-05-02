@@ -29,6 +29,23 @@ const CareersPage = () => {
 	 "@context": "https://schema.org",
 	 "@graph": [
 		{
+		  "@type": "BreadcrumbList",
+		  "itemListElement": [
+			{
+			  "@type": "ListItem",
+			  "position": 1,
+			  "name": "Home",
+			  "item": URL
+			},
+			{
+			  "@type": "ListItem",
+			  "position": 2,
+			  "name": "Careers",
+			  "item": `${URL}/careers`
+			}
+		  ]
+		},
+		{
 
 	  "@type" : "JobPosting",
       "title" : "Mechanical Engineer",
@@ -68,8 +85,11 @@ const CareersPage = () => {
           "unitText": "MONTH"
         }
       }
+	  
+	  
 	}
 	 ]
+	 
  }
 	const posts = [
 		{

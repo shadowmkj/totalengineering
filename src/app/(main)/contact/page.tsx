@@ -115,17 +115,9 @@ const ContactPage = () => {
               "name": "Home"
             }
           },
-          {
+        {
             "@type": "ListItem",
             "position": 2,
-            "item": {
-              "@id": "https://totaleng.in/about",
-              "name": "About"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
             "item": {
               "@id": "https://totaleng.in/contact",
               "name": "Contact"
